@@ -1,0 +1,164 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/templates/scrolling-nav)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+section {
+  padding: 150px 0;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-caption {
+	padding-bottom: 20%;
+}
+
+.catergreen-bg {
+	background: #EFFBEF;	
+}
+
+/* #62B748 #EFFBEF #F9A132 #6D6F72 #FFFFFF */
+
+.buzz-word {
+	text-shadow: 2px 2px 2px #6D6F72;
+}
+
+a.white-link:link, a.white-link:hover, a.white-link:visited, a.white-link:active {
+	color: #FFFFFF;
+}
+
+.accent-color {
+	color: #F9A132;	
+}
+
+a.accent-color-link:link, a.accent-color-link:hover, a.accent-color-link:visited, a.accent-color-link:active {
+	color: #F9A132;
+}
+
+.main-color {
+	color: #62B748;	
+}
+
+a.main-color-link:link, a.main-color-link:hover, a.main-color-link:visited, a.main-color-link:active {
+	color: #62B748;
+}
+
+section.download {
+  position: relative;
+  padding: 150px 0;
+}
+
+section.download .badges .badge-link {
+  display: block;
+  margin-bottom: 25px;
+}
+
+section.download .badges .badge-link:last-child {
+  margin-bottom: 0;
+}
+
+section.download .badges .badge-link img {
+  height: 60px;
+}
+
+@media (min-width: 768px) {
+  section.download .badges .badge-link {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
+
+
+.mobile-header {
+	display: none;
+}	
+
+@media (max-width: 768px) {
+	.carousel {
+		display: none;
+	}	
+	.mobile-header {
+		display: block;
+		padding-top: 100px;
+	}
+}
+
+.values-icon {
+	text-align: right;
+	padding-bottom: 0px;
+}
+
+.values-text {
+	text-align: left;
+	padding-right: 50px;
+}
+
+@media (max-width: 1000px) {
+	.values-icon {
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	.values-text {
+		text-align: center;
+		padding-right: 0px;
+	}
+}
+
+section.cta .cta-caption {
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+section.cta {
+  position: relative;
+  padding: 250px 0;
+  background-image: url("../images/bg3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+section.cta .cta-content {
+  position: relative;
+  z-index: 1;
+}
+
+section.cta .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-outline {
+  color: white;
+  border: 1px solid;
+  border-color: white;
+}
+
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+  color: white;
+  border-color: #F9A132;
+  background-color: #F9A132;
+}
+
+.btn {
+  border-radius: 300px;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.btn-xl {
+  font-size: 11px;
+  padding: 15px 45px;
+}
