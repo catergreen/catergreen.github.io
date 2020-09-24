@@ -137,7 +137,7 @@ section.cta .cta-caption {
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("../images/bg3.jpg");
+  background-image: url("../static/bg3.jpg");
   background-position: center;
   background-size: cover;
 }
